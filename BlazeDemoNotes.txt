@@ -1,0 +1,16 @@
+
+Dependencies required 
+++++++++++++++++++++++
+
+1) Pom.xml >
+		Add Dependencies 
+		1) Selenium-java > <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java --> 
+		2) TestNG > 	   <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		3) POI > 		   <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		4) Comman-io >     <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-io -->
+		
+
+
++++++++++++++++++++++++
+url: https://www.demoblaze.com/index.html
+
