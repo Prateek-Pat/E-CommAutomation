@@ -27,7 +27,7 @@ TestCase 1) Login_Functionality = Done
 3) Click on Login Button & fill form
 4) Verify if UserName is visible
 
-TestCase 2) Scrolling_Functionality
+TestCase 2) Scrolling_Functionality = Done
 +++++++++++++++++++++++++++++++++++
 
 1) Navigate to URL < https://www.demoblaze.com/index.html# >
