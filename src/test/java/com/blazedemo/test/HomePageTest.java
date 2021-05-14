@@ -2,12 +2,14 @@ package com.blazedemo.test;
 
 import java.io.IOException;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.blazedemo.base.Base;
 import com.blazedemo.pages.HomePage;
+import com.blazedemo.pages.ProductDetailsPage;
 
 public class HomePageTest extends Base {	
 	
@@ -19,6 +21,7 @@ public class HomePageTest extends Base {
 */	
 	public HomePage hp;
 	public HomePage homepage;
+	public ProductDetailsPage productdetailPage;
 	
 	
 	public HomePageTest() throws IOException {
@@ -60,6 +63,18 @@ public class HomePageTest extends Base {
 	public void validateScrollingFunctionalityTest(){
 		hp.scrollingArrow();
 		hp.scrollingArrow();			
+	}
+	
+	@Test(priority =4)
+	public void validaateClickOnNokiaTest() throws IOException{
+		
+		String expeccedURL = "https://www.demoblaze.com/prod.html?idp_=2";
+		
+		productdetailPage = hp.clickOnNokia();
+		String currentURL = driver.getCurrentUrl();
+		Assert.assertEquals(currentURL, expeccedURL);
+		
+		
 	}
 }
 

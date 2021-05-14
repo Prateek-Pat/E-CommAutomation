@@ -22,6 +22,7 @@ public class HomePage extends Base{
 	}
 	
 	// 2) WebElements	
+	
 	// LoginForm
 	@FindBy(xpath = "//a[@id='login2']")
 	WebElement loginLink;
@@ -48,11 +49,27 @@ public class HomePage extends Base{
 	@FindBy(xpath = "//button[@onclick='register()']")
 	WebElement SingUpBtn;
 	
+	//++++++++++++++++++++++++++++
+	
 	// ScrollingArrow	
 	@FindBy(xpath ="//span[@class='carousel-control-next-icon']")
 	WebElement scrollingArrow;
 	
+	//++++++++++++++++++++++++++++
 	
+	// Phones	
+	@FindBy(xpath = "//a[contains(text(),'Nokia lumia 1520')]")
+	WebElement NokiaLumia;
+	
+	// Laptop
+	@FindBy(xpath= "//a[contains(text(),'Laptops')]")
+	WebElement Laptops;
+	
+	// Monitor
+	@FindBy(xpath ="//a[contains(text(),'Laptops')]")
+	WebElement Monitors;
+	
+		
 	//3) Actions	
 	public void clickOnLoginLink(){
 		loginLink.click();		
@@ -80,6 +97,12 @@ public class HomePage extends Base{
 	
 	public void scrollingArrow(){
 		scrollingArrow.click();		
+	}
+	
+	public ProductDetailsPage clickOnNokia() throws IOException{
+		NokiaLumia.click();
+		
+		return new ProductDetailsPage();		
 	}
 }
 	
