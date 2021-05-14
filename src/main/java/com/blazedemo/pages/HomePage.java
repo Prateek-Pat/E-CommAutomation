@@ -104,5 +104,10 @@ public class HomePage extends Base{
 		
 		return new ProductDetailsPage();		
 	}
+	
+	public void clickOnLaptops(){
+		Laptops.click();
+				
+	}
 }
 	

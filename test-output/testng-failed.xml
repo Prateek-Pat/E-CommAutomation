@@ -7,9 +7,15 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="validateSingUpFunctioanlityTest"/>
         </methods>
       </class> <!-- com.blazedemo.test.HomePageTest -->
+      <class name="com.blazedemo.test.ProductDetailsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validateAddToCartTest"/>
+        </methods>
+      </class> <!-- com.blazedemo.test.ProductDetailsPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
