@@ -1,5 +1,7 @@
 package com.blazedemo.base;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
@@ -31,11 +33,14 @@ public class Base {
 		String BrowserName = prop.getProperty("browser");
 		if (BrowserName.equalsIgnoreCase("Chrome")) {
 
-			System.setProperty(
+			/*System.setProperty(
 					"webdriver.chrome.driver",
 					System.getProperty("user.dir")
 							+ "\\src\\main\\java\\com\\blazedemo\\executaable\\chromedriver_win32.zip");
-			 driver = new ChromeDriver();
+			 driver = new ChromeDriver();*/
+			
+			WebDriverManager.chromedriver().version("90.0.4").setup();
+			driver = new ChromeDriver();
 		}
 
 		else if (BrowserName.equalsIgnoreCase("firefox")) {

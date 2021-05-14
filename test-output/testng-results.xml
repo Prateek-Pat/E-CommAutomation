@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14309" started-at="2021-05-14T09:01:06Z" finished-at="2021-05-14T09:01:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14309" started-at="2021-05-14T09:01:06Z" finished-at="2021-05-14T09:01:20Z">
+      <class name="com.blazedemo.test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.HomePageTest@5e3a8624]" name="setUp" is-config="true" duration-ms="4657" started-at="2021-05-14T14:31:06Z" finished-at="2021-05-14T14:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateSingUpFunctioanlityTest()[pri:1, instance:com.blazedemo.test.HomePageTest@5e3a8624]" name="validateSingUpFunctioanlityTest" duration-ms="656" started-at="2021-05-14T14:31:11Z" finished-at="2021-05-14T14:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSingUpFunctioanlityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.HomePageTest@5e3a8624]" name="tearDown" is-config="true" duration-ms="708" started-at="2021-05-14T14:31:11Z" finished-at="2021-05-14T14:31:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.HomePageTest@5e3a8624]" name="setUp" is-config="true" duration-ms="3103" started-at="2021-05-14T14:31:12Z" finished-at="2021-05-14T14:31:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLoginFunctionalityTest()[pri:2, instance:com.blazedemo.test.HomePageTest@5e3a8624]" name="validateLoginFunctionalityTest" duration-ms="786" started-at="2021-05-14T14:31:15Z" finished-at="2021-05-14T14:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginFunctionalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.HomePageTest@5e3a8624]" name="tearDown" is-config="true" duration-ms="691" started-at="2021-05-14T14:31:16Z" finished-at="2021-05-14T14:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.HomePageTest@5e3a8624]" name="setUp" is-config="true" duration-ms="2726" started-at="2021-05-14T14:31:17Z" finished-at="2021-05-14T14:31:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateScrollingFunctionalityTest()[pri:3, instance:com.blazedemo.test.HomePageTest@5e3a8624]" name="validateScrollingFunctionalityTest" duration-ms="214" started-at="2021-05-14T14:31:19Z" finished-at="2021-05-14T14:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateScrollingFunctionalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.HomePageTest@5e3a8624]" name="tearDown" is-config="true" duration-ms="748" started-at="2021-05-14T14:31:20Z" finished-at="2021-05-14T14:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blazedemo.test.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
