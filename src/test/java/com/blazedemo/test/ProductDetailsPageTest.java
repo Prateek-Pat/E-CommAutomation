@@ -14,6 +14,7 @@ import com.blazedemo.pages.ProductDetailsPage;
 public class ProductDetailsPageTest extends Base{
 	
 	public HomePage hp;
+	public HomePage homepage;
 	public ProductDetailsPage productpage;
 	
 	public ProductDetailsPageTest() throws IOException {
@@ -26,6 +27,7 @@ public class ProductDetailsPageTest extends Base{
 		Base.Initlialize();
 		hp = new HomePage();
 		productpage = new ProductDetailsPage();
+		//hp.clickOnLoginLink();		
 	}
 	
 	@AfterMethod
@@ -36,29 +38,38 @@ public class ProductDetailsPageTest extends Base{
 	@Test(priority = 1)
 	public void validateLoginFunctionalityTest() throws IOException{
 		hp.clickOnLoginLink();
-		hp  = hp.LoginFunctionality(prop.getProperty("userName"), prop.getProperty("password"));	
+		homepage   = hp.LoginFunctionality(prop.getProperty("userName"), prop.getProperty("password"));	
 	}
 	
-	@Test(priority= 2)
+	// NokiavalidationTest
+	@Test(priority= 1)
 	public void validateNokiaLumiaText() throws IOException{
 		productpage  = hp.clickOnNokia();
 		boolean flag = productpage.NokiaLumiatext();
 		Assert.assertTrue(flag);		
 	}
 	
-	@Test(priority= 3)
+	@Test(priority= 2)
 	public void validateNokiaPriceTest() throws IOException{
 		productpage = hp.clickOnNokia();
 		boolean flag2 = productpage.NokiaPrice();
 		Assert.assertTrue(flag2);
 	}
 	
-	@Test(priority= 4)
+	@Test(priority= 3)
 	public void validateAddToCartTest() throws IOException{
 		productpage = hp.clickOnNokia();
 		productpage.AddToCart();
+	
+	
+	
+	// MacBookairTest
+		
+		}
+		
+	
 	}
-}
+
 	
 	
 	

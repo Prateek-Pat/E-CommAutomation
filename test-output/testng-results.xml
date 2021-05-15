@@ -2,52 +2,102 @@
 <testng-results skipped="0" failed="1" total="8" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="48362" started-at="2021-05-14T19:31:01Z" finished-at="2021-05-14T19:31:50Z">
+  <suite name="Suite" duration-ms="46901" started-at="2021-05-15T12:15:11Z" finished-at="2021-05-15T12:15:58Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="48362" started-at="2021-05-14T19:31:01Z" finished-at="2021-05-14T19:31:50Z">
-      <class name="com.blazedemo.test.ProductDetailsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="setUp" is-config="true" duration-ms="3047" started-at="2021-05-15T01:01:22Z" finished-at="2021-05-15T01:01:25Z">
+    <test name="Test" duration-ms="46901" started-at="2021-05-15T12:15:11Z" finished-at="2021-05-15T12:15:58Z">
+      <class name="com.blazedemo.test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.HomePageTest@91161c7]" name="setUp" is-config="true" duration-ms="4770" started-at="2021-05-15T17:45:11Z" finished-at="2021-05-15T17:45:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateLoginFunctionalityTest()[pri:1, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="validateLoginFunctionalityTest" duration-ms="742" started-at="2021-05-15T01:01:25Z" finished-at="2021-05-15T01:01:26Z">
+        <test-method status="PASS" signature="validateSingUpFunctioanlityTest()[pri:1, instance:com.blazedemo.test.HomePageTest@91161c7]" name="validateSingUpFunctioanlityTest" duration-ms="505" started-at="2021-05-15T17:45:16Z" finished-at="2021-05-15T17:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSingUpFunctioanlityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.HomePageTest@91161c7]" name="tearDown" is-config="true" duration-ms="1160" started-at="2021-05-15T17:45:16Z" finished-at="2021-05-15T17:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.HomePageTest@91161c7]" name="setUp" is-config="true" duration-ms="2456" started-at="2021-05-15T17:45:17Z" finished-at="2021-05-15T17:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLoginFunctionalityTest()[pri:2, instance:com.blazedemo.test.HomePageTest@91161c7]" name="validateLoginFunctionalityTest" duration-ms="722" started-at="2021-05-15T17:45:20Z" finished-at="2021-05-15T17:45:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginFunctionalityTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="tearDown" is-config="true" duration-ms="705" started-at="2021-05-15T01:01:26Z" finished-at="2021-05-15T01:01:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.HomePageTest@91161c7]" name="tearDown" is-config="true" duration-ms="692" started-at="2021-05-15T17:45:21Z" finished-at="2021-05-15T17:45:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="setUp" is-config="true" duration-ms="4040" started-at="2021-05-15T01:01:26Z" finished-at="2021-05-15T01:01:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.HomePageTest@91161c7]" name="setUp" is-config="true" duration-ms="3455" started-at="2021-05-15T17:45:21Z" finished-at="2021-05-15T17:45:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateNokiaLumiaText()[pri:2, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="validateNokiaLumiaText" duration-ms="2780" started-at="2021-05-15T01:01:30Z" finished-at="2021-05-15T01:01:33Z">
+        <test-method status="PASS" signature="validateScrollingFunctionalityTest()[pri:3, instance:com.blazedemo.test.HomePageTest@91161c7]" name="validateScrollingFunctionalityTest" duration-ms="245" started-at="2021-05-15T17:45:25Z" finished-at="2021-05-15T17:45:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateScrollingFunctionalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.HomePageTest@91161c7]" name="tearDown" is-config="true" duration-ms="717" started-at="2021-05-15T17:45:25Z" finished-at="2021-05-15T17:45:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.HomePageTest@91161c7]" name="setUp" is-config="true" duration-ms="4393" started-at="2021-05-15T17:45:26Z" finished-at="2021-05-15T17:45:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validaateClickOnNokiaTest()[pri:4, instance:com.blazedemo.test.HomePageTest@91161c7]" name="validaateClickOnNokiaTest" duration-ms="3132" started-at="2021-05-15T17:45:30Z" finished-at="2021-05-15T17:45:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validaateClickOnNokiaTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.HomePageTest@91161c7]" name="tearDown" is-config="true" duration-ms="677" started-at="2021-05-15T17:45:33Z" finished-at="2021-05-15T17:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blazedemo.test.HomePageTest -->
+      <class name="com.blazedemo.test.ProductDetailsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="setUp" is-config="true" duration-ms="2925" started-at="2021-05-15T17:45:34Z" finished-at="2021-05-15T17:45:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLoginFunctionalityTest()[pri:1, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="validateLoginFunctionalityTest" duration-ms="920" started-at="2021-05-15T17:45:37Z" finished-at="2021-05-15T17:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginFunctionalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="tearDown" is-config="true" duration-ms="715" started-at="2021-05-15T17:45:38Z" finished-at="2021-05-15T17:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="setUp" is-config="true" duration-ms="3627" started-at="2021-05-15T17:45:38Z" finished-at="2021-05-15T17:45:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateNokiaLumiaText()[pri:1, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="validateNokiaLumiaText" duration-ms="2556" started-at="2021-05-15T17:45:42Z" finished-at="2021-05-15T17:45:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNokiaLumiaText -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="tearDown" is-config="true" duration-ms="661" started-at="2021-05-15T01:01:33Z" finished-at="2021-05-15T01:01:34Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="tearDown" is-config="true" duration-ms="720" started-at="2021-05-15T17:45:45Z" finished-at="2021-05-15T17:45:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="setUp" is-config="true" duration-ms="2816" started-at="2021-05-15T01:01:34Z" finished-at="2021-05-15T01:01:37Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="setUp" is-config="true" duration-ms="2864" started-at="2021-05-15T17:45:45Z" finished-at="2021-05-15T17:45:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateNokiaPriceTest()[pri:3, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="validateNokiaPriceTest" duration-ms="4160" started-at="2021-05-15T01:01:37Z" finished-at="2021-05-15T01:01:41Z">
+        <test-method status="PASS" signature="validateNokiaPriceTest()[pri:2, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="validateNokiaPriceTest" duration-ms="2205" started-at="2021-05-15T17:45:48Z" finished-at="2021-05-15T17:45:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNokiaPriceTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="tearDown" is-config="true" duration-ms="667" started-at="2021-05-15T01:01:41Z" finished-at="2021-05-15T01:01:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="tearDown" is-config="true" duration-ms="691" started-at="2021-05-15T17:45:50Z" finished-at="2021-05-15T17:45:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="setUp" is-config="true" duration-ms="4019" started-at="2021-05-15T01:01:41Z" finished-at="2021-05-15T01:01:45Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="setUp" is-config="true" duration-ms="2919" started-at="2021-05-15T17:45:51Z" finished-at="2021-05-15T17:45:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="validateAddToCartTest()[pri:4, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="validateAddToCartTest" duration-ms="3398" started-at="2021-05-15T01:01:45Z" finished-at="2021-05-15T01:01:49Z">
+        <test-method status="FAIL" signature="validateAddToCartTest()[pri:3, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="validateAddToCartTest" duration-ms="3074" started-at="2021-05-15T17:45:54Z" finished-at="2021-05-15T17:45:57Z">
           <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
               <![CDATA[no such alert
@@ -55,8 +105,8 @@
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60840}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0e8a282188e80266ae2a9ecd212e9410]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56290}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f603909aa91d348612a16a07c978367]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
@@ -64,8 +114,8 @@ Session ID: 0e8a282188e80266ae2a9ecd212e9410]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60840}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0e8a282188e80266ae2a9ecd212e9410
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56290}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f603909aa91d348612a16a07c978367
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -78,8 +128,8 @@ Session ID: 0e8a282188e80266ae2a9ecd212e9410
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
-	at com.blazedemo.pages.ProductDetailsPage.AddToCart(ProductDetailsPage.java:43)
-	at com.blazedemo.test.ProductDetailsPageTest.validateAddToCartTest(ProductDetailsPageTest.java:59)
+	at com.blazedemo.pages.ProductDetailsPage.AddToCart(ProductDetailsPage.java:67)
+	at com.blazedemo.test.ProductDetailsPageTest.validateAddToCartTest(ProductDetailsPageTest.java:62)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -111,61 +161,11 @@ Session ID: 0e8a282188e80266ae2a9ecd212e9410
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAddToCartTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="tearDown" is-config="true" duration-ms="950" started-at="2021-05-15T01:01:49Z" finished-at="2021-05-15T01:01:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@604ed9f0]" name="tearDown" is-config="true" duration-ms="719" started-at="2021-05-15T17:45:57Z" finished-at="2021-05-15T17:45:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.blazedemo.test.ProductDetailsPageTest -->
-      <class name="com.blazedemo.test.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.HomePageTest@91161c7]" name="setUp" is-config="true" duration-ms="4365" started-at="2021-05-15T01:01:01Z" finished-at="2021-05-15T01:01:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateSingUpFunctioanlityTest()[pri:1, instance:com.blazedemo.test.HomePageTest@91161c7]" name="validateSingUpFunctioanlityTest" duration-ms="623" started-at="2021-05-15T01:01:06Z" finished-at="2021-05-15T01:01:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateSingUpFunctioanlityTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.HomePageTest@91161c7]" name="tearDown" is-config="true" duration-ms="752" started-at="2021-05-15T01:01:06Z" finished-at="2021-05-15T01:01:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.HomePageTest@91161c7]" name="setUp" is-config="true" duration-ms="2817" started-at="2021-05-15T01:01:07Z" finished-at="2021-05-15T01:01:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateLoginFunctionalityTest()[pri:2, instance:com.blazedemo.test.HomePageTest@91161c7]" name="validateLoginFunctionalityTest" duration-ms="504" started-at="2021-05-15T01:01:10Z" finished-at="2021-05-15T01:01:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLoginFunctionalityTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.HomePageTest@91161c7]" name="tearDown" is-config="true" duration-ms="691" started-at="2021-05-15T01:01:10Z" finished-at="2021-05-15T01:01:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.HomePageTest@91161c7]" name="setUp" is-config="true" duration-ms="2884" started-at="2021-05-15T01:01:11Z" finished-at="2021-05-15T01:01:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateScrollingFunctionalityTest()[pri:3, instance:com.blazedemo.test.HomePageTest@91161c7]" name="validateScrollingFunctionalityTest" duration-ms="347" started-at="2021-05-15T01:01:14Z" finished-at="2021-05-15T01:01:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateScrollingFunctionalityTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.HomePageTest@91161c7]" name="tearDown" is-config="true" duration-ms="735" started-at="2021-05-15T01:01:14Z" finished-at="2021-05-15T01:01:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.HomePageTest@91161c7]" name="setUp" is-config="true" duration-ms="3587" started-at="2021-05-15T01:01:15Z" finished-at="2021-05-15T01:01:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validaateClickOnNokiaTest()[pri:4, instance:com.blazedemo.test.HomePageTest@91161c7]" name="validaateClickOnNokiaTest" duration-ms="1899" started-at="2021-05-15T01:01:19Z" finished-at="2021-05-15T01:01:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validaateClickOnNokiaTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.HomePageTest@91161c7]" name="tearDown" is-config="true" duration-ms="1129" started-at="2021-05-15T01:01:21Z" finished-at="2021-05-15T01:01:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.blazedemo.test.HomePageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

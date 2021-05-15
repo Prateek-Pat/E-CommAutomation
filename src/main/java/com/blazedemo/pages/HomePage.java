@@ -65,9 +65,15 @@ public class HomePage extends Base{
 	@FindBy(xpath= "//a[contains(text(),'Laptops')]")
 	WebElement Laptops;
 	
+	@FindBy(xpath = "//a[contains(text(),'MacBook air')]")
+	WebElement MacBookair;
+	
 	// Monitor
 	@FindBy(xpath ="//a[contains(text(),'Laptops')]")
 	WebElement Monitors;
+	
+	@FindBy(xpath = "//a[contains(text(),'ASUS Full HD')]")
+	WebElement AsusMonitor;
 	
 		
 	//3) Actions	
@@ -105,8 +111,17 @@ public class HomePage extends Base{
 		return new ProductDetailsPage();		
 	}
 	
-	public void clickOnLaptops(){
+	public ProductDetailsPage clickOnLaptops() throws IOException{
 		Laptops.click();
+		MacBookair.click();
+		return new ProductDetailsPage();
+		
+	}
+	
+	public ProductDetailsPage clickOnMonitors() throws IOException{		
+		Monitors.click();
+		AsusMonitor.click();
+		return new ProductDetailsPage();
 				
 	}
 }
