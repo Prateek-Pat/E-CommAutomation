@@ -41,7 +41,7 @@ public class ProductDetailsPage extends Base {
 	
 	
 	// Monitors
-	@FindBy(xpath ="//h2[contains(text(),'ASUS Full HD]")
+	@FindBy(xpath ="//h2[contains(text(),'ASUS Full HD')]")
 	WebElement Asus;
 	
 	@FindBy(xpath = "//h3[@class='price-container']")

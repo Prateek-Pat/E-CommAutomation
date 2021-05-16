@@ -69,7 +69,7 @@ public class HomePage extends Base{
 	WebElement MacBookair;
 	
 	// Monitor
-	@FindBy(xpath ="//a[contains(text(),'Laptops')]")
+	@FindBy(xpath ="//a[contains(text(),'Monitors')]")
 	WebElement Monitors;
 	
 	@FindBy(xpath = "//a[contains(text(),'ASUS Full HD')]")

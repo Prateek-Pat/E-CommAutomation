@@ -42,33 +42,73 @@ public class ProductDetailsPageTest extends Base{
 	}
 	
 	// NokiavalidationTest
-	@Test(priority= 1)
+	@Test(priority= 2)
 	public void validateNokiaLumiaText() throws IOException{
 		productpage  = hp.clickOnNokia();
 		boolean flag = productpage.NokiaLumiatext();
 		Assert.assertTrue(flag);		
 	}
 	
-	@Test(priority= 2)
+	@Test(priority= 3)
 	public void validateNokiaPriceTest() throws IOException{
 		productpage = hp.clickOnNokia();
 		boolean flag2 = productpage.NokiaPrice();
 		Assert.assertTrue(flag2);
 	}
 	
-	@Test(priority= 3)
+	@Test(priority= 4)
 	public void validateAddToCartTest() throws IOException{
 		productpage = hp.clickOnNokia();
 		productpage.AddToCart();
-	
-	
-	
-	// MacBookairTest
 		
-		}
-		
-	
 	}
+	
+		
+	// MacBookairTest
+	@Test(priority=5)
+	public void validateMacBookairText() throws IOException{
+		hp.clickOnLaptops();
+		boolean flag = productpage.MacBookairtext();
+		Assert.assertTrue(flag);
+		
+		
+	}
+		
+	@Test(priority=6)
+	public void validateMacBookairPriceTest() throws IOException{
+		hp.clickOnLaptops();
+		boolean flag = productpage.MacBookairPrice();
+		Assert.assertTrue(flag);		
+	}
+	
+	@Test(priority=7)
+	public void validaateMacbookairAddToCartTest() throws IOException{
+		hp.clickOnLaptops();
+		productpage.macAddToCart();
+	    		
+	}
+	
+	// AsusMonitor
+	
+	@Test(priority=8)
+	public void validaateAsusTextTest() throws IOException{
+		hp.clickOnMonitors();
+		boolean flag = productpage.Asustext();
+		Assert.assertTrue(flag);
+	}		
+	
+	@Test(priority=9)
+	public void validateAsusPriceTest() throws IOException{
+		hp.clickOnMonitors();
+		boolean flag = productpage.AsusPrice();		
+	}
+	
+	@Test(priority=10)
+	public void vallidateAsusCartTest() throws IOException{
+		hp.clickOnMonitors();
+		productpage.asusAddToCart();	
+	}
+}
 
 	
 	
