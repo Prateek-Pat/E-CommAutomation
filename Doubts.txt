@@ -1,0 +1,4 @@
+
+
+Created getScreenShot utility in Utils
+How can we use this in TestCasee 

@@ -5,12 +5,15 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.blazedemo.base.Base;
 import com.blazedemo.pages.HomePage;
 import com.blazedemo.pages.ProductDetailsPage;
 
+
+@Listeners(com.blazedemo.listerners.CustomListerners.class)
 public class ProductDetailsPageTest extends Base{
 	
 	public HomePage hp;
