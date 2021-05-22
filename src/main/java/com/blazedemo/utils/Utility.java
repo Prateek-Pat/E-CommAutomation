@@ -22,5 +22,8 @@ public class Utility extends Base {
 		FileUtils.copyFile(src, new File("C:\\Users\\prate\\workspace\\BalzeDemoAutomation\\Screenshot"+Methodname+"."+"jpg"));
 	}
 		*/
+	
+	
+	
 }	
 
