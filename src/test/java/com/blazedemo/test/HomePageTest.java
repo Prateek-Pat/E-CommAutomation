@@ -13,7 +13,7 @@ import com.blazedemo.pages.HomePage;
 import com.blazedemo.pages.ProductDetailsPage;
 
 
-@Listeners(com.blazedemo.listerners.CustomListerners.class)
+@Listeners(com.blazedemo.listerners.CustomListener.class)
 public class HomePageTest extends Base {	
 	
 /*

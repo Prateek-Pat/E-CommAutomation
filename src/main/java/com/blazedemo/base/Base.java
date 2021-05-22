@@ -37,11 +37,11 @@ public class Base {
 		String BrowserName = prop.getProperty("browser");
 		if (BrowserName.equalsIgnoreCase("Chrome")) {
 
-			System.setProperty(
+			/*System.setProperty(
 					"webdriver.chrome.driver",
 					System.getProperty("user.dir")
 							+ "\\src\\main\\java\\com\\blazedemo\\executaable\\chromedriver_win32.zip");
-			 driver = new ChromeDriver();
+			 driver = new ChromeDriver();*/
 
 			WebDriverManager.chromedriver().version("90.0.4").setup();
 			driver = new ChromeDriver();
@@ -65,7 +65,7 @@ public class Base {
 	public static void getScreenshot(String Methodname) throws IOException{
 
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File("C:\\Users\\prate\\workspace\\BalzeDemoAutomation\\Screenshot"+Methodname+"."+"jpg"));
+		FileUtils.copyFile(src, new File("C:\\Users\\prate\\workspace\\BalzeDemoAutomation\\Screenshot\\"+Methodname+"."+"jpg"));
 	}
 
 

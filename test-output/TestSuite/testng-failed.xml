@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.blazedemo.test.HomePageTest">
+        <methods>
+          <include name="validaateClickOnNokiaTest"/>
+          <include name="validateScrollingFunctionalityTest"/>
+          <include name="setUp"/>
+          <include name="validateLoginFunctionalityTest"/>
+          <include name="validateSingUpFunctioanlityTest"/>
+        </methods>
+      </class> <!-- com.blazedemo.test.HomePageTest -->
+      <class name="com.blazedemo.test.ProductDetailsPageTest">
+        <methods>
+          <include name="validaateMacbookairAddToCartTest"/>
+          <include name="validateLoginFunctionalityTest"/>
+          <include name="validateMacBookairText"/>
+          <include name="validateNokiaPriceTest"/>
+          <include name="validateNokiaLumiaText"/>
+          <include name="setUp"/>
+          <include name="validateAddToCartTest"/>
+          <include name="validateAsusPriceTest"/>
+          <include name="validaateAsusTextTest"/>
+          <include name="validateMacBookairPriceTest"/>
+          <include name="vallidateAsusCartTest"/>
+        </methods>
+      </class> <!-- com.blazedemo.test.ProductDetailsPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
