@@ -2,102 +2,52 @@
 <testng-results skipped="9" failed="3" total="23" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="148760" started-at="2021-05-22T10:05:37Z" finished-at="2021-05-22T10:08:06Z">
+  <suite name="Suite" duration-ms="158391" started-at="2021-05-23T08:29:14Z" finished-at="2021-05-23T08:31:52Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="148760" started-at="2021-05-22T10:05:37Z" finished-at="2021-05-22T10:08:06Z">
-      <class name="com.blazedemo.test.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.HomePageTest@7cd62f43]" name="setUp" is-config="true" duration-ms="4731" started-at="2021-05-22T15:35:37Z" finished-at="2021-05-22T15:35:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateSingUpFunctioanlityTest()[pri:1, instance:com.blazedemo.test.HomePageTest@7cd62f43]" name="validateSingUpFunctioanlityTest" duration-ms="1232" started-at="2021-05-22T15:35:42Z" finished-at="2021-05-22T15:35:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateSingUpFunctioanlityTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.HomePageTest@7cd62f43]" name="tearDown" is-config="true" duration-ms="675" started-at="2021-05-22T15:35:43Z" finished-at="2021-05-22T15:35:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.HomePageTest@7cd62f43]" name="setUp" is-config="true" duration-ms="3080" started-at="2021-05-22T15:35:44Z" finished-at="2021-05-22T15:35:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateLoginFunctionalityTest()[pri:2, instance:com.blazedemo.test.HomePageTest@7cd62f43]" name="validateLoginFunctionalityTest" duration-ms="709" started-at="2021-05-22T15:35:47Z" finished-at="2021-05-22T15:35:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLoginFunctionalityTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.HomePageTest@7cd62f43]" name="tearDown" is-config="true" duration-ms="709" started-at="2021-05-22T15:35:47Z" finished-at="2021-05-22T15:35:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.HomePageTest@7cd62f43]" name="setUp" is-config="true" duration-ms="2885" started-at="2021-05-22T15:35:48Z" finished-at="2021-05-22T15:35:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateScrollingFunctionalityTest()[pri:3, instance:com.blazedemo.test.HomePageTest@7cd62f43]" name="validateScrollingFunctionalityTest" duration-ms="154" started-at="2021-05-22T15:35:51Z" finished-at="2021-05-22T15:35:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateScrollingFunctionalityTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.HomePageTest@7cd62f43]" name="tearDown" is-config="true" duration-ms="663" started-at="2021-05-22T15:35:51Z" finished-at="2021-05-22T15:35:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.HomePageTest@7cd62f43]" name="setUp" is-config="true" duration-ms="5421" started-at="2021-05-22T15:35:52Z" finished-at="2021-05-22T15:35:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validaateClickOnNokiaTest()[pri:4, instance:com.blazedemo.test.HomePageTest@7cd62f43]" name="validaateClickOnNokiaTest" duration-ms="1514" started-at="2021-05-22T15:35:57Z" finished-at="2021-05-22T15:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validaateClickOnNokiaTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.HomePageTest@7cd62f43]" name="tearDown" is-config="true" duration-ms="693" started-at="2021-05-22T15:35:59Z" finished-at="2021-05-22T15:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.blazedemo.test.HomePageTest -->
+    <test name="Test" duration-ms="158391" started-at="2021-05-23T08:29:14Z" finished-at="2021-05-23T08:31:52Z">
       <class name="com.blazedemo.test.ProductDetailsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="2492" started-at="2021-05-22T15:35:59Z" finished-at="2021-05-22T15:36:02Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="2984" started-at="2021-05-23T13:59:40Z" finished-at="2021-05-23T13:59:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateLoginFunctionalityTest()[pri:1, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="validateLoginFunctionalityTest" duration-ms="651" started-at="2021-05-22T15:36:02Z" finished-at="2021-05-22T15:36:03Z">
+        <test-method status="PASS" signature="validateLoginFunctionalityTest()[pri:1, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="validateLoginFunctionalityTest" duration-ms="586" started-at="2021-05-23T13:59:43Z" finished-at="2021-05-23T13:59:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginFunctionalityTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="673" started-at="2021-05-22T15:36:03Z" finished-at="2021-05-22T15:36:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="772" started-at="2021-05-23T13:59:43Z" finished-at="2021-05-23T13:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="3269" started-at="2021-05-22T15:36:03Z" finished-at="2021-05-22T15:36:07Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="2675" started-at="2021-05-23T13:59:44Z" finished-at="2021-05-23T13:59:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateNokiaLumiaText()[pri:2, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="validateNokiaLumiaText" duration-ms="2505" started-at="2021-05-22T15:36:07Z" finished-at="2021-05-22T15:36:09Z">
+        <test-method status="PASS" signature="validateNokiaLumiaText()[pri:2, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="validateNokiaLumiaText" duration-ms="2881" started-at="2021-05-23T13:59:47Z" finished-at="2021-05-23T13:59:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNokiaLumiaText -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="628" started-at="2021-05-22T15:36:09Z" finished-at="2021-05-22T15:36:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="706" started-at="2021-05-23T13:59:50Z" finished-at="2021-05-23T13:59:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="3109" started-at="2021-05-22T15:36:10Z" finished-at="2021-05-22T15:36:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="3141" started-at="2021-05-23T13:59:50Z" finished-at="2021-05-23T13:59:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateNokiaPriceTest()[pri:3, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="validateNokiaPriceTest" duration-ms="2626" started-at="2021-05-22T15:36:13Z" finished-at="2021-05-22T15:36:15Z">
+        <test-method status="PASS" signature="validateNokiaPriceTest()[pri:3, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="validateNokiaPriceTest" duration-ms="2387" started-at="2021-05-23T13:59:53Z" finished-at="2021-05-23T13:59:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNokiaPriceTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="681" started-at="2021-05-22T15:36:15Z" finished-at="2021-05-22T15:36:16Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="666" started-at="2021-05-23T13:59:56Z" finished-at="2021-05-23T13:59:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="4209" started-at="2021-05-22T15:36:16Z" finished-at="2021-05-22T15:36:20Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="2632" started-at="2021-05-23T13:59:56Z" finished-at="2021-05-23T13:59:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="validateAddToCartTest()[pri:4, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="validateAddToCartTest" duration-ms="1583" started-at="2021-05-22T15:36:20Z" finished-at="2021-05-22T15:36:22Z">
+        <test-method status="SKIP" signature="validateAddToCartTest()[pri:4, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="validateAddToCartTest" duration-ms="3059" started-at="2021-05-23T13:59:59Z" finished-at="2021-05-23T14:00:02Z">
           <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
               <![CDATA[no such alert
@@ -105,8 +55,8 @@
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 31f7f4b08f6ba2cab6dfcddbde5821fe]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f4b9bbda226b711cde79ac8fcad18420]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
@@ -114,8 +64,8 @@ Session ID: 31f7f4b08f6ba2cab6dfcddbde5821fe]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 31f7f4b08f6ba2cab6dfcddbde5821fe
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f4b9bbda226b711cde79ac8fcad18420
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -161,15 +111,15 @@ Session ID: 31f7f4b08f6ba2cab6dfcddbde5821fe
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAddToCartTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="659" started-at="2021-05-22T15:36:22Z" finished-at="2021-05-22T15:36:23Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="713" started-at="2021-05-23T14:00:04Z" finished-at="2021-05-23T14:00:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="3078" started-at="2021-05-22T15:36:23Z" finished-at="2021-05-22T15:36:26Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="3271" started-at="2021-05-23T14:00:04Z" finished-at="2021-05-23T14:00:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="validateAddToCartTest()[pri:4, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="validateAddToCartTest" duration-ms="2054" started-at="2021-05-22T15:36:26Z" finished-at="2021-05-22T15:36:28Z">
+        <test-method status="SKIP" signature="validateAddToCartTest()[pri:4, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="validateAddToCartTest" duration-ms="2403" started-at="2021-05-23T14:00:08Z" finished-at="2021-05-23T14:00:10Z">
           <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
               <![CDATA[no such alert
@@ -177,8 +127,8 @@ Session ID: 31f7f4b08f6ba2cab6dfcddbde5821fe
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63353}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a6ac376d04461a35d2b8da187e996101]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63663}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 84ce8b210e0b14715205b48555e2de36]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
@@ -186,8 +136,8 @@ Session ID: a6ac376d04461a35d2b8da187e996101]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63353}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a6ac376d04461a35d2b8da187e996101
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63663}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 84ce8b210e0b14715205b48555e2de36
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -233,15 +183,15 @@ Session ID: a6ac376d04461a35d2b8da187e996101
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAddToCartTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="1148" started-at="2021-05-22T15:36:28Z" finished-at="2021-05-22T15:36:29Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="732" started-at="2021-05-23T14:00:10Z" finished-at="2021-05-23T14:00:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="4421" started-at="2021-05-22T15:36:29Z" finished-at="2021-05-22T15:36:33Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="3687" started-at="2021-05-23T14:00:11Z" finished-at="2021-05-23T14:00:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="validateAddToCartTest()[pri:4, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="validateAddToCartTest" duration-ms="1584" started-at="2021-05-22T15:36:33Z" finished-at="2021-05-22T15:36:35Z">
+        <test-method status="SKIP" signature="validateAddToCartTest()[pri:4, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="validateAddToCartTest" duration-ms="2752" started-at="2021-05-23T14:00:15Z" finished-at="2021-05-23T14:00:17Z">
           <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
               <![CDATA[no such alert
@@ -249,8 +199,8 @@ Session ID: a6ac376d04461a35d2b8da187e996101
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63371}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9b5b20ba5ed121c7a7a4921fcdd55bc8]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63680}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2634dc85cee9bae68c5701ef53b09947]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
@@ -258,8 +208,8 @@ Session ID: 9b5b20ba5ed121c7a7a4921fcdd55bc8]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63371}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9b5b20ba5ed121c7a7a4921fcdd55bc8
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63680}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2634dc85cee9bae68c5701ef53b09947
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -305,15 +255,15 @@ Session ID: 9b5b20ba5ed121c7a7a4921fcdd55bc8
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAddToCartTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="1121" started-at="2021-05-22T15:36:35Z" finished-at="2021-05-22T15:36:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="753" started-at="2021-05-23T14:00:17Z" finished-at="2021-05-23T14:00:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="3865" started-at="2021-05-22T15:36:36Z" finished-at="2021-05-22T15:36:40Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="3271" started-at="2021-05-23T14:00:18Z" finished-at="2021-05-23T14:00:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="validateAddToCartTest()[pri:4, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="validateAddToCartTest" duration-ms="1928" started-at="2021-05-22T15:36:40Z" finished-at="2021-05-22T15:36:42Z">
+        <test-method status="FAIL" signature="validateAddToCartTest()[pri:4, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="validateAddToCartTest" duration-ms="2184" started-at="2021-05-23T14:00:21Z" finished-at="2021-05-23T14:00:24Z">
           <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
               <![CDATA[no such alert
@@ -321,8 +271,8 @@ Session ID: 9b5b20ba5ed121c7a7a4921fcdd55bc8
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63389}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 26dd81653bbf261601cf874a31597e50]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63697}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 823e8616f2779a1c6d113c970291d6dd]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
@@ -330,8 +280,8 @@ Session ID: 26dd81653bbf261601cf874a31597e50]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63389}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 26dd81653bbf261601cf874a31597e50
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63697}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 823e8616f2779a1c6d113c970291d6dd
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -377,39 +327,39 @@ Session ID: 26dd81653bbf261601cf874a31597e50
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAddToCartTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="732" started-at="2021-05-22T15:36:42Z" finished-at="2021-05-22T15:36:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="709" started-at="2021-05-23T14:00:24Z" finished-at="2021-05-23T14:00:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="3014" started-at="2021-05-22T15:36:43Z" finished-at="2021-05-22T15:36:46Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="3089" started-at="2021-05-23T14:00:25Z" finished-at="2021-05-23T14:00:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateMacBookairText()[pri:5, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="validateMacBookairText" duration-ms="2531" started-at="2021-05-22T15:36:46Z" finished-at="2021-05-22T15:36:48Z">
+        <test-method status="PASS" signature="validateMacBookairText()[pri:5, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="validateMacBookairText" duration-ms="3203" started-at="2021-05-23T14:00:28Z" finished-at="2021-05-23T14:00:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMacBookairText -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="807" started-at="2021-05-22T15:36:48Z" finished-at="2021-05-22T15:36:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="1509" started-at="2021-05-23T14:00:31Z" finished-at="2021-05-23T14:00:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="3478" started-at="2021-05-22T15:36:49Z" finished-at="2021-05-22T15:36:53Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="3745" started-at="2021-05-23T14:00:32Z" finished-at="2021-05-23T14:00:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateMacBookairPriceTest()[pri:6, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="validateMacBookairPriceTest" duration-ms="2790" started-at="2021-05-22T15:36:53Z" finished-at="2021-05-22T15:36:56Z">
+        <test-method status="PASS" signature="validateMacBookairPriceTest()[pri:6, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="validateMacBookairPriceTest" duration-ms="2170" started-at="2021-05-23T14:00:36Z" finished-at="2021-05-23T14:00:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMacBookairPriceTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="781" started-at="2021-05-22T15:36:56Z" finished-at="2021-05-22T15:36:56Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="1146" started-at="2021-05-23T14:00:38Z" finished-at="2021-05-23T14:00:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="3330" started-at="2021-05-22T15:36:56Z" finished-at="2021-05-22T15:37:00Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="4336" started-at="2021-05-23T14:00:39Z" finished-at="2021-05-23T14:00:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="validaateMacbookairAddToCartTest()[pri:7, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="validaateMacbookairAddToCartTest" duration-ms="2727" started-at="2021-05-22T15:37:00Z" finished-at="2021-05-22T15:37:02Z">
+        <test-method status="SKIP" signature="validaateMacbookairAddToCartTest()[pri:7, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="validaateMacbookairAddToCartTest" duration-ms="2846" started-at="2021-05-23T14:00:44Z" finished-at="2021-05-23T14:00:47Z">
           <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
               <![CDATA[no such alert
@@ -417,8 +367,8 @@ Session ID: 26dd81653bbf261601cf874a31597e50
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63446}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9391e9a7c3bc99adaf24040464c8416d]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63748}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: baef94ad8d662842d95a055031a0e168]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
@@ -426,8 +376,8 @@ Session ID: 9391e9a7c3bc99adaf24040464c8416d]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63446}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9391e9a7c3bc99adaf24040464c8416d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63748}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: baef94ad8d662842d95a055031a0e168
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -473,15 +423,15 @@ Session ID: 9391e9a7c3bc99adaf24040464c8416d
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validaateMacbookairAddToCartTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="1353" started-at="2021-05-22T15:37:02Z" finished-at="2021-05-22T15:37:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="737" started-at="2021-05-23T14:00:47Z" finished-at="2021-05-23T14:00:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="3016" started-at="2021-05-22T15:37:04Z" finished-at="2021-05-22T15:37:07Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="3007" started-at="2021-05-23T14:00:47Z" finished-at="2021-05-23T14:00:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="validaateMacbookairAddToCartTest()[pri:7, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="validaateMacbookairAddToCartTest" duration-ms="2457" started-at="2021-05-22T15:37:07Z" finished-at="2021-05-22T15:37:09Z">
+        <test-method status="SKIP" signature="validaateMacbookairAddToCartTest()[pri:7, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="validaateMacbookairAddToCartTest" duration-ms="3142" started-at="2021-05-23T14:00:50Z" finished-at="2021-05-23T14:00:54Z">
           <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
               <![CDATA[no such alert
@@ -489,8 +439,8 @@ Session ID: 9391e9a7c3bc99adaf24040464c8416d
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63466}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e899dff1cd86132a46836272a9c4f4ff]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 28907fd225f56ac320236968054374d0]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
@@ -498,8 +448,8 @@ Session ID: e899dff1cd86132a46836272a9c4f4ff]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63466}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e899dff1cd86132a46836272a9c4f4ff
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 28907fd225f56ac320236968054374d0
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -545,15 +495,15 @@ Session ID: e899dff1cd86132a46836272a9c4f4ff
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validaateMacbookairAddToCartTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="791" started-at="2021-05-22T15:37:09Z" finished-at="2021-05-22T15:37:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="1206" started-at="2021-05-23T14:00:54Z" finished-at="2021-05-23T14:00:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="3386" started-at="2021-05-22T15:37:10Z" finished-at="2021-05-22T15:37:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="3506" started-at="2021-05-23T14:00:55Z" finished-at="2021-05-23T14:00:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="validaateMacbookairAddToCartTest()[pri:7, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="validaateMacbookairAddToCartTest" duration-ms="2466" started-at="2021-05-22T15:37:13Z" finished-at="2021-05-22T15:37:16Z">
+        <test-method status="SKIP" signature="validaateMacbookairAddToCartTest()[pri:7, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="validaateMacbookairAddToCartTest" duration-ms="2187" started-at="2021-05-23T14:00:58Z" finished-at="2021-05-23T14:01:00Z">
           <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
               <![CDATA[no such alert
@@ -561,8 +511,8 @@ Session ID: e899dff1cd86132a46836272a9c4f4ff
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63485}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5f1a680540e648f64c8705fc09bace2a]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63784}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b272bcc529b86d7f6efc8c90abca2f96]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
@@ -570,8 +520,8 @@ Session ID: 5f1a680540e648f64c8705fc09bace2a]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63485}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5f1a680540e648f64c8705fc09bace2a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63784}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b272bcc529b86d7f6efc8c90abca2f96
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -617,15 +567,15 @@ Session ID: 5f1a680540e648f64c8705fc09bace2a
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validaateMacbookairAddToCartTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="758" started-at="2021-05-22T15:37:16Z" finished-at="2021-05-22T15:37:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="823" started-at="2021-05-23T14:01:00Z" finished-at="2021-05-23T14:01:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="3610" started-at="2021-05-22T15:37:17Z" finished-at="2021-05-22T15:37:20Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="2971" started-at="2021-05-23T14:01:01Z" finished-at="2021-05-23T14:01:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="validaateMacbookairAddToCartTest()[pri:7, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="validaateMacbookairAddToCartTest" duration-ms="2865" started-at="2021-05-22T15:37:20Z" finished-at="2021-05-22T15:37:23Z">
+        <test-method status="FAIL" signature="validaateMacbookairAddToCartTest()[pri:7, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="validaateMacbookairAddToCartTest" duration-ms="2758" started-at="2021-05-23T14:01:04Z" finished-at="2021-05-23T14:01:07Z">
           <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
               <![CDATA[no such alert
@@ -633,8 +583,8 @@ Session ID: 5f1a680540e648f64c8705fc09bace2a
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 74746d1efeede184b2376faee5bc0f23]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f738de38410faa9e9ad60f14b9202af3]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
@@ -642,8 +592,8 @@ Session ID: 74746d1efeede184b2376faee5bc0f23]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 74746d1efeede184b2376faee5bc0f23
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f738de38410faa9e9ad60f14b9202af3
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -689,39 +639,39 @@ Session ID: 74746d1efeede184b2376faee5bc0f23
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validaateMacbookairAddToCartTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="1149" started-at="2021-05-22T15:37:24Z" finished-at="2021-05-22T15:37:25Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="744" started-at="2021-05-23T14:01:07Z" finished-at="2021-05-23T14:01:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="3916" started-at="2021-05-22T15:37:25Z" finished-at="2021-05-22T15:37:29Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="3715" started-at="2021-05-23T14:01:08Z" finished-at="2021-05-23T14:01:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validaateAsusTextTest()[pri:8, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="validaateAsusTextTest" duration-ms="3004" started-at="2021-05-22T15:37:29Z" finished-at="2021-05-22T15:37:32Z">
+        <test-method status="PASS" signature="validaateAsusTextTest()[pri:8, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="validaateAsusTextTest" duration-ms="2726" started-at="2021-05-23T14:01:12Z" finished-at="2021-05-23T14:01:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validaateAsusTextTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="809" started-at="2021-05-22T15:37:32Z" finished-at="2021-05-22T15:37:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="719" started-at="2021-05-23T14:01:15Z" finished-at="2021-05-23T14:01:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="3128" started-at="2021-05-22T15:37:32Z" finished-at="2021-05-22T15:37:36Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="3361" started-at="2021-05-23T14:01:15Z" finished-at="2021-05-23T14:01:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateAsusPriceTest()[pri:9, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="validateAsusPriceTest" duration-ms="2428" started-at="2021-05-22T15:37:36Z" finished-at="2021-05-22T15:37:38Z">
+        <test-method status="PASS" signature="validateAsusPriceTest()[pri:9, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="validateAsusPriceTest" duration-ms="2936" started-at="2021-05-23T14:01:19Z" finished-at="2021-05-23T14:01:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAsusPriceTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="725" started-at="2021-05-22T15:37:38Z" finished-at="2021-05-22T15:37:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="1157" started-at="2021-05-23T14:01:22Z" finished-at="2021-05-23T14:01:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="3324" started-at="2021-05-22T15:37:39Z" finished-at="2021-05-22T15:37:42Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="3370" started-at="2021-05-23T14:01:23Z" finished-at="2021-05-23T14:01:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="vallidateAsusCartTest()[pri:10, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="vallidateAsusCartTest" duration-ms="2513" started-at="2021-05-22T15:37:42Z" finished-at="2021-05-22T15:37:45Z">
+        <test-method status="SKIP" signature="vallidateAsusCartTest()[pri:10, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="vallidateAsusCartTest" duration-ms="2591" started-at="2021-05-23T14:01:26Z" finished-at="2021-05-23T14:01:29Z">
           <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
               <![CDATA[no such alert
@@ -729,8 +679,8 @@ Session ID: 74746d1efeede184b2376faee5bc0f23
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63563}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9ba02205b83834907455e89f55caa1d2]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3293e4506d82bf6ea8f2988e2c2891b3]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
@@ -738,8 +688,8 @@ Session ID: 9ba02205b83834907455e89f55caa1d2]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63563}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9ba02205b83834907455e89f55caa1d2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3293e4506d82bf6ea8f2988e2c2891b3
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -785,15 +735,15 @@ Session ID: 9ba02205b83834907455e89f55caa1d2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vallidateAsusCartTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="696" started-at="2021-05-22T15:37:45Z" finished-at="2021-05-22T15:37:45Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="762" started-at="2021-05-23T14:01:29Z" finished-at="2021-05-23T14:01:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="3389" started-at="2021-05-22T15:37:45Z" finished-at="2021-05-22T15:37:49Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="3262" started-at="2021-05-23T14:01:30Z" finished-at="2021-05-23T14:01:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="vallidateAsusCartTest()[pri:10, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="vallidateAsusCartTest" duration-ms="2789" started-at="2021-05-22T15:37:49Z" finished-at="2021-05-22T15:37:51Z">
+        <test-method status="SKIP" signature="vallidateAsusCartTest()[pri:10, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="vallidateAsusCartTest" duration-ms="4590" started-at="2021-05-23T14:01:33Z" finished-at="2021-05-23T14:01:37Z">
           <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
               <![CDATA[no such alert
@@ -801,8 +751,8 @@ Session ID: 9ba02205b83834907455e89f55caa1d2
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63582}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7f6507ae05b4459091a4a17fb5434cce]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63873}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c9fd81934b0716225195a276e4f5a39]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
@@ -810,8 +760,8 @@ Session ID: 7f6507ae05b4459091a4a17fb5434cce]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63582}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7f6507ae05b4459091a4a17fb5434cce
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63873}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c9fd81934b0716225195a276e4f5a39
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -857,15 +807,15 @@ Session ID: 7f6507ae05b4459091a4a17fb5434cce
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vallidateAsusCartTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="805" started-at="2021-05-22T15:37:51Z" finished-at="2021-05-22T15:37:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="772" started-at="2021-05-23T14:01:37Z" finished-at="2021-05-23T14:01:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="3126" started-at="2021-05-22T15:37:52Z" finished-at="2021-05-22T15:37:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="3056" started-at="2021-05-23T14:01:38Z" finished-at="2021-05-23T14:01:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="vallidateAsusCartTest()[pri:10, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="vallidateAsusCartTest" duration-ms="2500" started-at="2021-05-22T15:37:55Z" finished-at="2021-05-22T15:37:58Z">
+        <test-method status="SKIP" signature="vallidateAsusCartTest()[pri:10, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="vallidateAsusCartTest" duration-ms="3016" started-at="2021-05-23T14:01:41Z" finished-at="2021-05-23T14:01:44Z">
           <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
               <![CDATA[no such alert
@@ -873,8 +823,8 @@ Session ID: 7f6507ae05b4459091a4a17fb5434cce
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63602}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0c00386fd89a029c43c3d0dfd82d6f7b]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63892}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3505018aef5c538457185c32275c3781]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
@@ -882,8 +832,8 @@ Session ID: 0c00386fd89a029c43c3d0dfd82d6f7b]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63602}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0c00386fd89a029c43c3d0dfd82d6f7b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63892}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3505018aef5c538457185c32275c3781
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -929,15 +879,15 @@ Session ID: 0c00386fd89a029c43c3d0dfd82d6f7b
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vallidateAsusCartTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="696" started-at="2021-05-22T15:37:58Z" finished-at="2021-05-22T15:37:59Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="815" started-at="2021-05-23T14:01:44Z" finished-at="2021-05-23T14:01:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="3280" started-at="2021-05-22T15:37:59Z" finished-at="2021-05-22T15:38:02Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="3197" started-at="2021-05-23T14:01:45Z" finished-at="2021-05-23T14:01:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="vallidateAsusCartTest()[pri:10, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="vallidateAsusCartTest" duration-ms="2761" started-at="2021-05-22T15:38:02Z" finished-at="2021-05-22T15:38:05Z">
+        <test-method status="FAIL" signature="vallidateAsusCartTest()[pri:10, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="vallidateAsusCartTest" duration-ms="2620" started-at="2021-05-23T14:01:48Z" finished-at="2021-05-23T14:01:51Z">
           <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
               <![CDATA[no such alert
@@ -945,8 +895,8 @@ Session ID: 0c00386fd89a029c43c3d0dfd82d6f7b
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3c5f4425fa0e0228c36eb49e9a6c584a]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63913}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c7da5036b9548690ff4bb9178fd178f7]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
@@ -954,8 +904,8 @@ Session ID: 3c5f4425fa0e0228c36eb49e9a6c584a]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PRATEEKS-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3c5f4425fa0e0228c36eb49e9a6c584a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\prate\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63913}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c7da5036b9548690ff4bb9178fd178f7
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1001,11 +951,61 @@ Session ID: 3c5f4425fa0e0228c36eb49e9a6c584a
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vallidateAsusCartTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="698" started-at="2021-05-22T15:38:05Z" finished-at="2021-05-22T15:38:06Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.ProductDetailsPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="810" started-at="2021-05-23T14:01:51Z" finished-at="2021-05-23T14:01:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.blazedemo.test.ProductDetailsPageTest -->
+      <class name="com.blazedemo.test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.HomePageTest@343f4d3d]" name="setUp" is-config="true" duration-ms="5304" started-at="2021-05-23T13:59:14Z" finished-at="2021-05-23T13:59:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateSingUpFunctioanlityTest()[pri:1, instance:com.blazedemo.test.HomePageTest@343f4d3d]" name="validateSingUpFunctioanlityTest" duration-ms="1316" started-at="2021-05-23T13:59:19Z" finished-at="2021-05-23T13:59:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSingUpFunctioanlityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.HomePageTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="756" started-at="2021-05-23T13:59:20Z" finished-at="2021-05-23T13:59:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.HomePageTest@343f4d3d]" name="setUp" is-config="true" duration-ms="4453" started-at="2021-05-23T13:59:21Z" finished-at="2021-05-23T13:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLoginFunctionalityTest()[pri:2, instance:com.blazedemo.test.HomePageTest@343f4d3d]" name="validateLoginFunctionalityTest" duration-ms="483" started-at="2021-05-23T13:59:25Z" finished-at="2021-05-23T13:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginFunctionalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.HomePageTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="762" started-at="2021-05-23T13:59:26Z" finished-at="2021-05-23T13:59:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.HomePageTest@343f4d3d]" name="setUp" is-config="true" duration-ms="6403" started-at="2021-05-23T13:59:27Z" finished-at="2021-05-23T13:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateScrollingFunctionalityTest()[pri:3, instance:com.blazedemo.test.HomePageTest@343f4d3d]" name="validateScrollingFunctionalityTest" duration-ms="157" started-at="2021-05-23T13:59:33Z" finished-at="2021-05-23T13:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateScrollingFunctionalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.HomePageTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="1169" started-at="2021-05-23T13:59:33Z" finished-at="2021-05-23T13:59:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.test.HomePageTest@343f4d3d]" name="setUp" is-config="true" duration-ms="2976" started-at="2021-05-23T13:59:34Z" finished-at="2021-05-23T13:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validaateClickOnNokiaTest()[pri:4, instance:com.blazedemo.test.HomePageTest@343f4d3d]" name="validaateClickOnNokiaTest" duration-ms="1468" started-at="2021-05-23T13:59:37Z" finished-at="2021-05-23T13:59:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validaateClickOnNokiaTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.test.HomePageTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="760" started-at="2021-05-23T13:59:39Z" finished-at="2021-05-23T13:59:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blazedemo.test.HomePageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

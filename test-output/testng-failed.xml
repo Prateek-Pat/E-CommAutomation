@@ -6,12 +6,6 @@
   </listeners>
   <test name="Test(failed)">
     <classes>
-      <class name="com.blazedemo.test.HomePageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.blazedemo.test.HomePageTest -->
       <class name="com.blazedemo.test.ProductDetailsPageTest">
         <methods>
           <include name="validaateMacbookairAddToCartTest"/>
@@ -21,6 +15,12 @@
           <include name="vallidateAsusCartTest"/>
         </methods>
       </class> <!-- com.blazedemo.test.ProductDetailsPageTest -->
+      <class name="com.blazedemo.test.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.blazedemo.test.HomePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
