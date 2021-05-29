@@ -9,7 +9,6 @@
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="validateAddToCartTest"/>
-          <include name="vallidateAsusCartTest"/>
         </methods>
       </class> <!-- com.blazedemo.test.ProductDetailsPageTest -->
     </classes>

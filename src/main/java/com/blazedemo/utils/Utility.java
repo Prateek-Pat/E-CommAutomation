@@ -2,10 +2,17 @@ package com.blazedemo.utils;
 
 import java.io.IOException;
 
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import com.blazedemo.base.Base;
 
 
 public class Utility extends Base {	
+	
+	public static WebDriverWait wait;
+	public static Alert alert;
 
 	public Utility() throws IOException {
 		
@@ -23,7 +30,15 @@ public class Utility extends Base {
 	}
 		*/
 	
-	
+	public static void explicityWait(){
+		
+		wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.alertIsPresent());
+		alert = driver.switchTo().alert();
+		alert.accept();
+		
+		//return true;
+		
+	}
 	
 }	
-

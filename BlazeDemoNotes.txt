@@ -11,6 +11,14 @@ Dependencies required
 		5) ExtentReport >  <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		
 
++++++++++++++++++++++++++
+Selenuim COncept COvered
++++++++++++++++++++++++++
+1) Pom Page Objecct MOdel 
+2) Listenrs 
+3) Retry Machnism 
+4) Assertion 
+5) ExtentReport
 
 ++++++++++++++++++++++++++++++++++++++++++
 url: https://www.demoblaze.com/index.html
