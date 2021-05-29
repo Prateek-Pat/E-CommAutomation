@@ -9,6 +9,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.blazedemo.base.Base;
+import com.blazedemo.pages.CartPage;
 import com.blazedemo.pages.HomePage;
 import com.blazedemo.pages.ProductDetailsPage;
 
@@ -24,6 +25,7 @@ public class HomePageTest extends Base {
 */	
 	public HomePage hp;
 	public HomePage homepage;
+	public CartPage cp;
 	public ProductDetailsPage productdetailPage;
 	
 	
@@ -75,9 +77,18 @@ public class HomePageTest extends Base {
 		
 		productdetailPage = hp.clickOnNokia();
 		String currentURL = driver.getCurrentUrl();
-		Assert.assertEquals(currentURL, expeccedURL);
+		Assert.assertEquals(currentURL, expeccedURL);			
+	}
+	
+	@Test(priority=5)
+	public void validateCartLinkTest(){
 		
+		String expectedUrl1 = "https://www.demoblaze.com/cart.html";
 		
+		cp = hp.clickOnCartLink();
+		String currentUrl1 = driver.getCurrentUrl();
+		Assert.assertEquals(currentUrl1, expectedUrl1);
+
 	}
 }
 

@@ -12,7 +12,7 @@ Dependencies required
 		
 
 +++++++++++++++++++++++++
-Selenuim COncept COvered
+Selenuim Concept Covered
 +++++++++++++++++++++++++
 1) Pom Page Objecct MOdel 
 2) Listenrs 
@@ -29,7 +29,7 @@ TestCases
 ++++++++++
 
 TestCase 1) Login_Functionality = Done
-++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++
 
 1) Navigate to URL < https://www.demoblaze.com/index.html# >
 2) Click on SignUp Button fill form
@@ -37,14 +37,14 @@ TestCase 1) Login_Functionality = Done
 4) Verify if UserName is visible
 
 TestCase 2) Scrolling_Functionality = Done
-+++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++
 
 1) Navigate to URL < https://www.demoblaze.com/index.html# >
 2) Image Verification 
 3) Tap on arrow right arrow to verify scrolliing functionality
 
-TestCase 3) Verify_Categories
-+++++++++++++++++++++++++++++++
+TestCase 3) Verify_Categories = Done
+++++++++++++++++++++++++++++++++++++
 
 1) Navigate to URL < https://www.demoblaze.com/index.html# >
 2) Category > Phone > Click on NOKIA Lumia 1520 > Verify whether NOKIA lumia is displayed or not

@@ -75,6 +75,11 @@ public class HomePage extends Base{
 	@FindBy(xpath = "//a[contains(text(),'ASUS Full HD')]")
 	WebElement AsusMonitor;
 	
+	// CartSection
+	@FindBy(xpath = "//a[contains(text(),'Cart')]")
+	WebElement cartLink;
+	
+	
 		
 	//3) Actions	
 	public void clickOnLoginLink(){
@@ -114,15 +119,20 @@ public class HomePage extends Base{
 	public ProductDetailsPage clickOnLaptops() throws IOException{
 		Laptops.click();
 		MacBookair.click();
-		return new ProductDetailsPage();
-		
+		return new ProductDetailsPage();		
 	}
 	
 	public ProductDetailsPage clickOnMonitors() throws IOException{		
 		Monitors.click();
 		AsusMonitor.click();
-		return new ProductDetailsPage();
-				
+		
+		return new ProductDetailsPage();				
+	}
+	
+	public CartPage clickOnCartLink(){
+		cartLink.click();
+		
+		return new CartPage();
 	}
 }
 	

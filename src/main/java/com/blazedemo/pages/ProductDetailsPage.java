@@ -60,6 +60,7 @@ public class ProductDetailsPage extends Base {
 	
 	@FindBy(xpath = "//a[@onclick='addToCart(14)']")
 	WebElement AsusAddToCartbtn;
+		
 	
 	// 3) Actions
 	
