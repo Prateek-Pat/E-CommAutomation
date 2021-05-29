@@ -129,7 +129,7 @@ public class HomePage extends Base{
 		return new ProductDetailsPage();				
 	}
 	
-	public CartPage clickOnCartLink(){
+	public CartPage clickOnCartLink() throws IOException{
 		cartLink.click();
 		
 		return new CartPage();

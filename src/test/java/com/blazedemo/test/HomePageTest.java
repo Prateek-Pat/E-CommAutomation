@@ -81,7 +81,7 @@ public class HomePageTest extends Base {
 	}
 	
 	@Test(priority=5)
-	public void validateCartLinkTest(){
+	public void validateCartLinkTest() throws IOException{
 		
 		String expectedUrl1 = "https://www.demoblaze.com/cart.html";
 		
