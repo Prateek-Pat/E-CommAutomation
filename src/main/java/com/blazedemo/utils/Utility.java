@@ -3,16 +3,20 @@ package com.blazedemo.utils;
 import java.io.IOException;
 
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.blazedemo.base.Base;
+import com.blazedemo.pages.CartPage;
 
 
 public class Utility extends Base {	
 	
 	public static WebDriverWait wait;
 	public static Alert alert;
+	
 
 	public Utility() throws IOException {
 		
@@ -38,6 +42,14 @@ public class Utility extends Base {
 		alert.accept();
 		
 		//return true;
+		
+	}
+	
+	public static void explicitlyWait(){
+		wait = new WebDriverWait(driver, 10);		
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Cart')]")));
+		
+		//return new CartPage();
 		
 	}
 	

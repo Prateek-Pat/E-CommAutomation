@@ -96,7 +96,7 @@ public class ProductDetailsPageTest extends Base{
 	@Test(priority=8)
 	public void validaateAsusTextTest() throws IOException{
 		hp.clickOnMonitors();
-		boolean flag = productpage.Asustext();
+		boolean flag = productpage.Asustext(); 
 		Assert.assertTrue(flag);
 	}		
 	
