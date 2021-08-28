@@ -33,7 +33,7 @@ public class CartPageTest extends Base{
 		hp = new HomePage();
 		productpage = new ProductDetailsPage();
 		cp = new CartPage();	
-		hp.LoginFunctionality(prop.getProperty("userName"), prop.getProperty("password"));
+		//hp.LoginFunctionality(prop.getProperty("userName"), prop.getProperty("password"));
 	}
 	
 	@AfterMethod
@@ -49,12 +49,12 @@ public class CartPageTest extends Base{
 	}
 	*/
 	// NokiavalidationTest
-	@Test(priority= 1,enabled=true)
+	/*@Test(priority= 1,enabled=true)
 	public void validateNokiaLumiaText() throws IOException{
 		productpage  = hp.clickOnNokia();
 		boolean flag = productpage.NokiaLumiatext();
 		Assert.assertTrue(flag);		
-	}
+	}*/
 	
 	@Test(priority= 2)
 	public void validateNokiaPriceTest() throws IOException{
@@ -133,19 +133,20 @@ public class CartPageTest extends Base{
 		cp.clickDeleteAsusMonitor();
 	}		
 	
-	@Test(dataProvider="dpMethod", priority=11)	
+	@Test(dataProvider="dpMethod", priority=1)	
 	public void validateUserPurchaseOrderDetails(String name, String country, String city, CharSequence[] card, String month, CharSequence[] year ) throws IOException{
+		hp.clickOnLoginLink();
+		hp.LoginFunctionality(prop.getProperty("userName"), prop.getProperty("password"));
 		cp = hp.clickOnCartLink();
 		cp.clickOnPlaceOrder();
 		cp.UserDetails(name, country, city, card, month, year);
 	}
 	
 	@DataProvider()
-	public void dpMethod() throws IOException{
+	public Object[][] dpMethod() throws IOException{
 		
 		Object[][] obj = ExcelUtility.ExcelDataReader("UserDetails");
-		
+		return obj;
 	}
-	
-	
+		
 }

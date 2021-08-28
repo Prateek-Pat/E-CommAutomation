@@ -93,3 +93,36 @@ TestCase 7) Verify Delete_item_from_Cart_Functionality
 5) Click on PLACE ORDER button
 6) Fill Place Order form & click on PURCHASE
 7) Confirmation Popup > Click on OK button
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>3.1.0</version>
+			<scope>test</scope>
+		</dependency>
+					
+		This is correcct dependency is correct
+		
+
+<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>4.2.2</version>
+			<scope>compile</scope>
+		</dependency>
+		
+		
+		This is Incorrecct dependency 
+
++++++++++++++++++++++++++++++++++++++++++++++		
+		
+		
+		
+		

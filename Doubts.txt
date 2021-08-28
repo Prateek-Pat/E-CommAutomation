@@ -2,3 +2,14 @@
 
 Created getScreenShot utility in Utils
 How can we use this in TestCasee 
+
+Error Encountered
+java.lang.NoClassDefFoundError: org/apache/http/ssl/TrustStrategy
+
+on changing the version from 4.3.4 to 4.5.3 resolved the above issue
+
+<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.3</version>
+		</dependency>

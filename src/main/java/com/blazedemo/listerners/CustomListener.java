@@ -16,11 +16,8 @@ import com.blazedemo.reportlistener.ExtentRepoterNG;
 			super();			
 		}
 
-
-		
 		public ExtentReports report;
-		
-		
+
 		public void onTestStart(ITestResult result) {
 			
 			report = ExtentRepoterNG.getReport();
@@ -64,6 +61,3 @@ import com.blazedemo.reportlistener.ExtentRepoterNG;
 			
 		}		
 }
-
-
-

@@ -6,10 +6,22 @@
   </listeners>
   <test name="Test(failed)">
     <classes>
+      <class name="com.blazedemo.test.ProductDetailsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.blazedemo.test.ProductDetailsPageTest -->
+      <class name="com.blazedemo.test.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.blazedemo.test.HomePageTest -->
       <class name="com.blazedemo.test.CartPageTest">
         <methods>
+          <include name="validateUserPurchaseOrderDetails"/>
           <include name="setUpMethod"/>
-          <include name="enterUserDetailsTest"/>
           <include name="validateDeleteAsusMonitorTest"/>
           <include name="tearDown"/>
         </methods>
